@@ -1,0 +1,1046 @@
+Hello Divya,
+
+Hope you are doing well and safe!
+
+Thank you for contacting Ranorex Support. I will be happy to assist you!
+
+1) In this issue, I suggest to re-track the problematic element and verify the issue.
+
+2) As well, you can try to add some delay before action.
+
+3) Also, make sure there is no dynamic value used in RXPath of the element.
+
+If the issue persist,  I would suggest to provide the snapshot of the problematic element.
+
+Hope these details will help you and looking forward to your reply.
+
+
+Hello Amanda,
+	    Still I'm having an issue accessing salesforce and fuze as Manikandan.Perumal@ranorex.com
+can you please assist 
+
+Regards
+Manikandan
+
+Regards,
+Chandravadan Patil,
+Ranorex Support Engineer.
+
+Hello Moritz,
+
+Hope you are doing well and safe!
+
+Thank you for contacting Ranorex and I will be happy to help you with this issue.
+
+As per the details provided by you, it seems that when the Aqua desktop client, Ranorex, and the Aqua Ranorex client are on the same server, it works properly.  So we can assume that there are some configurations/settings missing.
+
+Here, I would suggest making sure that all servers and client machines are in the same network as well as access to each other.
+
+As well, make sure no required port is blocked by a security tool (your IT Team can help you with this issue). 
+
+If the issue persists, I would suggest revisiting the Aqua and Ranorex integration document provided by Aqua.
+
+Also, it seems that issue with the Aqua configuration, I would suggest checking with Aqua Support. Team. 
+
+Hope these details will help you.
+
+
+Regards,
+
+Chandravadan Patil
+
+Hello donald ,
+
+Hope you are doing well and safe!
+
+Thank you for contacting Ranorex Support. I will be more than happy to assist you with this issue.
+
+Here, I would suggest making sure that Firewall or any security tools is not blocking the port as well as not blocking Ranorex/Ranorex Agent.Your IT Team may help you to change ICP Port.
+
+As well, to change Ranorex Agent, make sure you are following below steps:
+
+You can change the port of Ranorex Agent by editing the config.toml file. Refer to the following screenshot for more details:
+
+Before the above changes, make sure:
+1) The new port is free in your network and not used by another application/service.
+2) Open the new port in the firewall.
+3) Open the config.toml file using notepad and change the port.
+
+Hello Sidney,
+
+I am so sorry to hear about your experience.
+
+We have tested your AUT on two different DELL laptops and were successfully able to track all the elements of WebView2. 
+
+For your reference, I'm attaching the screenshot of both machine's Configurations
+
+Hello Martina,
+
+Hope you are doing well and safe!
+
+Apologies for the delay,
+
+Our Development Team analyzed this issue and identified this as a User Story. So Team is working on the next phase i.e. identifying all the possible scenarios and then implementation of this feature will start. It may take time because of multiple scenarios. We are trying to fix this issue as soon as possible. 
+
+As soon as there are any updates on this issue I will notify you.
+
+Regards,
+
+Chandravadan Patil
+Ranorex Support Engineer
+
+Hello Divya,
+
+Hope you are doing well and safe!
+
+Thank you for contacting Ranorex Support. I will be happy to assist you!
+
+1) In this issue, I suggest to re-track the problematic element and verify the issue.
+
+2) As well, you can try to add some delay before action.
+
+3) Also, make sure there is no dynamic value used in RXPath of the element.
+
+If the issue persist,  I would suggest to provide the snapshot of the problematic element.
+
+Hope these details will help you and looking forward to your reply.
+
+
+Regards,
+Chandravadan Patil,
+Ranorex Support Engineer.
+
+Hello Rakesh,
+
+Sure we can schedule the meeting, Before that kindly try the following
+
+This may be an installation error. you can try the same scenario on another machine by installing the latest trial version of Ranorex. if it works without issues then you can reinstall or else you can upgrade to the latest version.
+
+You can download the latest version of Ranorex from the following location:
+
+https://www.ranorex.com/download-archive/
+
+
+If the issue persists provide the AUT details like the Technology of the application, its version, and framework (if any).
+
+It will be much better if you provide demo access to your application to do the possible workarounds.
+
+Let me know your availability (with time zone), and I will schedule a remote session at a time we both have availability.
+
+Hello Ali Ibrahim,
+
+I hope you're having a great week!
+
+	1. Did GDI raw text recognition for this UI element work in previous versions of Ranorex?
+
+	2. This is likely a permission related issue since it worked in previous versions of Ranorex. Try the following and see if there is any improvement:
+
+	3. Run Ranorex and your application under test with administrative rights
+
+	4. Disabled Windows UAC
+
+	5. Ensure Ranorex is whitelisted in any installed antivirus software
+
+	6. Ensure Ranorex, your Ranorex Test, and your application under test are all stored on a local non-encrypted drive (no network drives)
+
+If you continue to experience issues, try the other available WPF plugins (WpfOnly & WpfImprovedOnly) and see if you get better object recognition. I highly recommend checking out the below links for more information on the different WPF plugins. Be aware, changing the WPF plugin may break your existing repository objects.
+
+	!. Settings Overview
+
+	!. WPFImproved User guide
+
+	!. WPFImproved FAQ
+
+	7. As well, you can check this scenario on some another machine with same configuration and environment.
+
+	8. In case, issue persists please provide the Ranorex solution to us for further investigation
+
+
+	I hope this helps!
+
+Hello Motomu,
+
+Hope you are doing well and safe!
+
+Thank you for contacting Ranorex Support. I will be more than happy to help you.
+
+To get the list of Smart Folders from the Test Suite, you can use the following code snippet:
+
+
+
+TestSuite tS = (TestSuite)TestSuite.Current; 
+            IList<TestSuiteEntry> ss =tS.GetAllTestSuiteEntries();
+    
+            string smartfoldername="";
+            foreach(TestSuiteEntry x in ss)
+             {
+                 if((x.GetType()== typeof(SmartFolderNode) ))
+                    {
+                      
+                      smartfoldername=smartfoldername+ " " + x.DisplayName;
+                      //Your Logic
+                    }
+             }
+            Report.Log(ReportLevel.Info, "This is list:" + smartfoldername);
+
+You may need to modify the above code as per your requirements.
+
+Hope these details will help you and looking forward to your reply.
+Hello Tyson,
+
+I hope this email finds you well!
+
+Thank you for contacting Ranorex Support. I will be more than happy to help you.
+
+In this issue, the element count is mismatched because of the use of '//'. '//' means that any UI element, any number of tree levels
+
+You can refer to the following link for more details:
+
+https://www.ranorex.com/help/latest/ranorex-studio-advanced/ranorexpath/ranorexpath-syntax/
+
+AND
+
+https://www.ranorex.com/help/latest/ranorex-studio-advanced/ranorexpath/ranorexpath-syntax-examples/#:~:text=for%20this%20RanoreXPath.-,Wildcards,-Wildcards%20can%20make
+
+Hope these details will help you and looking forward to your reply.
+
+Regards,
+
+Karthikraja Rajendran
+Ranorex Support Engineer
+Hello Reehan,
+
+Hope you are doing well and safe!
+
+Thank you for contacting Ranorex Support. I will be more than happy to help you today.
+
+I’m afraid that there is no out-of-the-box solution for adding breakpoints and running executables in "debug"-mode from the command line interface. You may try a command-line debugger such as MDbg, which is part of the .NET Framework. For more details about this, refer to the following link:
+
+https://learn.microsoft.com/en-us/dotnet/framework/tools/mdbg-exe?redirectedfrom=MSDN
+
+Also, you can refer to the following link:
+
+https://learn.microsoft.com/en-us/answers/questions/452109/how-to-enter-debug-in-the-command-prompt
+
+Hope these details will help you.
+
+Hi,
+
+It sounds like a problem with project/Ranorex studio configuration? Have you tried to create a new solution with breakpoints? If they works in new solution, try to simulate the situation from your old solution.
+
+At first, copy all settings (both Ranorex studio settings and project settings), from old solution to new one. If the breakpoints still work in new solution, try to add the user code from the non-working project.
+
+BTW, have you tried to debug the solution on another machine? Try also uninstall and re-install Ranorex.
+
+Hello Schaeffling,
+
+I hope you’re having a good week!
+
+To fix this, You have to click TestProject's references, right clicked the Project1 reference, and opened up its properties, and then set "Copy Local" to "False". Also, make sure that the reference's "Path" property was the same as Project1's build path.
+
+May I know if this issue is coming after any updation of the Ranorex version or If you are using the Ranorex agent to execute the solution Remotely
+
+Kindly provide me the Ranorex log file, Also I would suggest verifying this scenario on Another machine
+
+Hope these details will help you and looking forward to your reply.
+
+Regards,
+
+Karthikraja Rajendran
+Ranorex Support Engineer.
+
+Hello Michael,
+
+Hope you are doing well and safe!
+
+Make sure that disable bounds warnings is True in the properties section. As well as set the action spot value as a Center rather than any other like center left, center right. Kindly refer to the below screenshot
+
+
+Kindly compress the test case as a zip format and rename it to the case number. Then upload it to the following location. We couldn't find the test case you have already uploaded. 
+
+https://upload.ranorex.com/s/4Epy8GC5RwJa9rT
+
+Also, you have created another ticket(00983611). Can you confirm if this ticket is also pointing same issue i.e clicking on wrong element or clicking on wrong spot.
+
+Regards,
+Karthikraja Rajendran
+Ranorex Support Engineer
+
+Hello Martin,
+
+We had a high number of cases recently, and had our team re-arranged, so sometimes cases take a bit longer to investigate.
+
+Can you let me know if the error you experienced is reproducible, and if so send us over some more details and I will look into it further.
+
+Hello Reehan,
+
+I hope you’re having a good week!
+
+As you said that you need to add the breakpoints in the command line, Regarding this I need to contact the development team and let you know how to overcome this.
+
+Regards,
+
+Chandravadan Patil,
+Ranorex Support Engineer.
+Hello Todd,
+
+Hoping you are doing well and safe!
+
+It seems that the file is not uploaded completely. I would request you to upload the file once again on same path(File server support upto 50 GB file).
+
+In case issue persists, I would suggest to upload the file to the any third-party file server as per your convenience and share the link with us.
+
+Looking forward to your reply.
+
+Thank you,
+
+Regards,
+Karthikraja Rajendran
+Ranorex Support Engineer
+Hello Sidney,
+
+Hoping you are doing well and safe!
+
+I don't think this issue is about the DELL machine but looks like a machine-specific issue.
+
+In this case, I would suggest verifying this scenario on another machine with the same configuration and environment(possibly on a DELL machine).
+
+If the issue persists, please provide the sample application to us for further investigation.
+
+You can upload a sample application to the following location:
+
+https://upload.ranorex.com/s/4Epy8GC5RwJa9rT
+
+Looking forward to your reply.
+
+Regards,
+
+Chandravadan Patil
+Ranorex Support Engineer
+
+Hello Shilpa,
+
+Thank you for joining in the remote just now.
+
+It is to follow up on the remote; I'm glad that we were able to fix the issue. Please feel free to reach out to us if you need any support in the future. 
+
+Thank you for being a valued customer. 
+Hello Tobias,
+
+Hope you are doing well and safe!
+
+Its nice to know that your issue got resolved.
+
+For new issue, I would suggest to check following details:
+
+The Ranorex repository reuses element definitions as long as their RxPath stays the same
+The path may change, for instance, if the text of a button element changes
+I assume that something in your application changes, e.g. the title of the treeview, when you add a new user.
+Please, inspect the paths of the elements that cannot be found and try to change the paths so that they do not depend on information in your GUI that changes after adding a user.
+
+In case issue persists even after above suggestion, I would suggest to create new ticket for the dedicated support for this issue.
+
+Regards,
+
+Chandravadan Patil
+Ranorex Support Engineer
+
+
+Hello Todd,
+
+Hoping you are doing well!!
+
+It seems that the file is not uploaded completely, We can't unzip the file that you are provided
+
+I would suggest trying the solution to disable the SAP plugin when the window is in the background and not used and activate it when it is needed.
+
+Try the following method to resolve it,
+
+"Ranorex.Plugin.SapFlavor.Instance.Enabled = false/true;"
+
+If this setting doesn't work for you then I will happily schedule a meeting.
+
+Regards,
+
+Karthikraja Rajendran
+Ranorex Support Engineer.
+Hello Tobias,
+
+Hoping you are doing good and safe!
+
+Thank you for contacting Ranorex Support. I will be happy to assist you.
+
+It is possible to copy a test suite from another solution or a test case (or cases) from the test suite of one solution to another. But it doesn't copy the data connectors, so your bindings will be cleared. It may affect the integrity of your solution. It also doesn't keep both updated if you make changes to one or the other. 
+
+You can refer to the following link for more details on managing Test Suites:
+
+https://www.ranorex.com/help/latest/ranorex-studio-fundamentals/test-suite/multiple-testsuites/
+
+It is possible to add existing Recording Modules and Code Modules to another project.
+This can be done by performing the following steps:
+Right Click on your project in the Projects View
+Select “Add Existing Item”
+Choose a Recording Module or a Code Module from another Solution.
+In the following dialog, you can choose how to resolve the missing repository reference
+
+
+Confirm this dialog with OK
+In the case of a repository, you can merge your repositories into one repository. Do that with Copy&Paste or Drag&Drop - simply copy the elements (e.g. the root nodes) from one repository and paste them into the other repository or drag the elements from one repository to the other repository and drop them there.
+
+It is also possible to use separate repositories. Within your recording module, you can select one which should be used for the recording module.
+
+Please let us know if you need further assistance, I will be happy to help you!
+
+
+Regards,
+
+Chandravadan Patil
+Ranorex Support Engineer
+
+Hello Igor,
+
+Thank you for contacting Ranorex Support. I will be more than happy to assist you with this today.
+
+1. When you upgrade Ranorex on your computer, then the referenced DLLs on your computer will get upgraded. However, your project will still reference 10.1.5 DLLs. You need to re-build the project and this should resolve the issue.
+
+2. This can also be due to dependencies, so you can just restore packages if the above option doesn't help.
+Open your solution and in the left project explorer right click on References -> Restore packages.
+3. If none of the above options work, I would suggest you do a clean installation (uninstall-restart-install) and see if it works.
+
+I hope this helps. Let me know if you still face any issues and I will guide you further.
+
+Hello Jakub,
+
+I hope you’re having a good week!
+
+1) Try different reporting levels as suggested in screenshot
+2) Alternatively, you can use try--catch (if there is exception)
+3) As well, you can send us a sample Visual Studio solution to investigate this issue  on our side.Before uploading compress the file, and rename it with the case number.
+https://upload.ranorex.com/s/4Epy8GC5RwJa9rT
+
+Hope these details will help you and looking forward to your reply.
+
+
+Regards,
+Chandravadan Patil
+Ranorex Support Engineer.
+
+Hello Jakub,
+
+Hope you are doing well and safe!
+
+I'm afraid that there is no other option to generate log.
+
+As well, there might be log generated by Visual Studio that can help.
+
+Also for further investigation on this issue, I would suggest providing a sample Visual Studio solution. Kindly compress the solution file and rename it to the case number. Then upload it to the following location:
+
+https://upload.ranorex.com/s/4Epy8GC5RwJa9rT
+
+Looking forward to your reply.
+
+
+Regards,
+Chandravadan Patil
+Ranorex Support Engineer
+
+Hello Christian,
+
+                          Thank you for contacting ranorex support. Kindly follow through below the user guide reference.  If the issue does not resolves,  better assist kindly provide the following checklist items.
+
+● Ranorex Snapshot
+     ○Rename the snapshot folder based on your case number.
+     ○Upload to this location. https://upload.ranorex.com/s/4Epy8GC5RwJa9rT
+
+
+● Ranorex compressed solution
+     ○ Rename the compressed solution folder based on your case number.
+     ○ Upload to this location. https://upload.ranorex.com/s/4Epy8GC5RwJa9rT
+
+● Ranorex XPath of the problematic element
+
+● Ranorex Version
+
+● Operating System information
+
+● Ranorex Logs (Instructions)
+    ○ Delete your existing Ranorex trace logs folder (%userprofile%\Documents\Ranorex\Logs)
+    ○ Duplicate the issue
+    ○ Compress the Ranorex trace logs folder
+    ○ Rename the log folder based on your case number
+    ○ Upload to this location https://upload.ranorex.com/s/4Epy8GC5RwJa9rT 
+
+Hello Donald,
+
+I hope you’re having a good week!
+
+In this issue, I can see that there is an issue with the IPC Port connection For this, I would suggest checking with your IT Team and verifying that IPC Port is not blocked by any security tool or Firewall. Also, no other application trying to access the same port.
+
+If the issue does not resolves,  better assist kindly provide the following details:
+
+1) Ranorex Snapshot
+2) Error Screenshot
+
+Make compressed files of the above details. Rename it with the case number and upload it to the following location:
+
+https://upload.ranorex.com/s/4Epy8GC5RwJa9rT
+
+Also, I would suggest going through the following link How to debug web code in webview2 apps
+
+https://learn.microsoft.com/en-us/microsoft-edge/webview2/how-to/debug-devtools?tabs=dotnetcsharp
+
+Hope these details will help you and looking forward to your reply.
+Hello Tyson,
+
+I hope this email finds you well!
+
+In this issue, This error message may appear, when you are trying to perform a "Mobile Key Press"-action during a Selenium test.
+Please make sure to only use "Mouse"-actions in order to click on buttons and "Key Sequence"-actions in order to write text into input fields.
+
+
+For further investigation on this issue, I would suggest providing an AUT or sample solution. Kindly compress the solution file and rename it to the case number. Then upload it to the following location:
+
+https://upload.ranorex.com/s/4Epy8GC5RwJa9rT
+
+
+I hope this information helps!
+
+Regards,
+
+Chandravadan Patil
+Ranorex Support Engineer.
+
+A double slash "//" means any descendant node of the current node in the HTML tree which matches the locator.
+
+A single slash "/" means a node which is a direct child of the current.
+
+Regards,
+Chandravadan Patil,
+Ranorex Support Engineer.
+
+Hello Tyson,
+
+I hope this email finds you well!
+
+Thank you for contacting Ranorex Support. I will be more than happy to help you.
+
+I would suggest you refer to the following User Guide link for more details about drag and drop:
+
+https://www.ranorex.com/help/latest/ranorex-studio-expert/ranorex-automation-helpers/dragndroplibrary/
+
+Kindly update the Latest version of Ranorex 10.5.1 and try with the latest version if it is working fine or not also I attached the latest version link the below
+
+https://www.ranorex.com/download/Ranorex-10.5.1.exe
+
+If the issue does not resolves,  better assist kindly provide the following details:
+
+1) Ranorex Snapshot
+2) Error Screenshot
+
+If the issue persists, kindly let us know more about the issue and Looking forward to your reply.
+
+
+
+Regards,
+
+Chandravadan Patil
+Ranorex Support Engineer
+
+Hello Tyson,
+
+I hope this email finds you well!
+
+In this issue could you please try the standard steps to drag and drop the element, you can use the following steps:
+
+- Mouse.MoveTo(yourSourceElement, [location in your source element])
+- Delay.Milliseconds(1000);
+- Mouse.ButtonDown(MouseButtons.Left)
+- Delay.Milliseconds(1000);
+- Mouse.MoveTo(repo.MyApp, new Location(bmp,"-30;30"));
+- Delay.Milliseconds(1000);
+- Mouse.ButtonUp(MouseButtons.Left)
+
+For further investigation on this issue, I would suggest providing an AUT or sample solution. Kindly compress the solution file and rename it to the case number. Then upload it to the following location:
+
+https://upload.ranorex.com/s/4Epy8GC5RwJa9rT
+
+Also, may I know the exact issue that you are facing for that kindly provide the Snapshot or Error screenshot
+
+
+Hope these details will help you and looking forward to your reply.
+
+
+Regards,
+
+Chandravadan Patil
+Ranorex Support Engineer
+
+Hope you are doing well and safe.
+
+Thank you for contacting Ranorex Support. I will be more than happy to help you.
+
+Did you verify that all the prerequisites are installed on the target machine before the update?
+
+I would suggest downloading the Ranorex setup for version 10.5.0 from the following link once again: 
+
+https://www.ranorex.com/download/Ranorex-10.5.0.zip
+
+Unzip the file and you will get a separate 'prerequisites.exe' file.
+
+Copy and install it to the target machine and then verify the issue.
+
+Also, make sure you have installed MS Build 16 on the target machine.
+
+Here you can find the details about offline installer for MS build 16
+
+https://social.msdn.microsoft.com/Forums/en-US/62794e4e-255c-4447-bdc8-c18fde459bb1/msbuild-162019-version-offline-installer?forum=msbuild
+
+Along with this if there is any antivirus/firewall installed on the target machine then make sure you have added Ranorex to the exception list of antivirus/firewall.
+
+Hope these details will help you.
+
+Hello Schaeffling,
+
+I hope this email finds you well!
+
+In this issue could you please reinstall Ranorex once again, I would suggest downloading the Ranorex setup for version 10.5.1 from the following link: 
+
+https://www.ranorex.com/download/Ranorex-10.5.1.zip
+
+Steps to reinstall:
+
+1) Uninstall Ranorex
+2) Reboot the Machine
+3) Install Prerequisite.exe from the zip
+4) Install Ranorex setup
+
+Also, We suggest that there must be installed MSBuild 16 or lower.
+
+Here you can find the details about the offline installer for MS build 16
+
+https://social.msdn.microsoft.com/Forums/en-US/62794e4e-255c-4447-bdc8-c18fde459bb1/msbuild-162019-version-offline-installer?forum=msbuild
+
+Along with this if there is any antivirus/firewall installed on the target machine then make sure you have added Ranorex to the exception list of antivirus/firewall.
+
+Hope these details will help you and looking forward to your reply.
+
+
+Regards,
+Karthikraja Rajendran
+Ranorex Support Engineer.
+
+Hello Raffaella,
+
+Hope you are doing well and safe!
+
+Refer below link about Whitelisting:
+
+https://www.ranorex.com/help/latest/ranorex-studio-fundamentals/whitelisting/
+
+Hello Tyson,
+
+I hope this email finds you well!
+
+In the Issue, The reason the elements were greyed out, could be that they were not visible once the dropdown was closed.
+So, in your tests, you just make sure that the dropdown is selected, or use InvokeAction -> Select() methods on the dropdown items.
+
+For further investigation on this issue, I would suggest providing an AUT or sample solution. Kindly compress the solution file and rename it to the case number. Then upload it to the following location:
+
+https://upload.ranorex.com/s/4Epy8GC5RwJa9rT
+
+
+I hope this information helps!
+
+Regards,
+
+Chandravadan Patil
+Ranorex Support Engineer.
+
+Hello Uri,
+
+Hope you are doing well and safe!
+
+Thank you for contacting Ranorex Support. I will be more than happy to assist you.
+
+If you want to get the 'Select' text, then use the below code:
+
+repo.ApplicationUnderTest.EMS.GeneralTab.defaultPreset.TagName;
+
+If you want to get the selected value in the dropdown, then use the below code:
+
+repo.ApplicationUnderTest.EMS.GeneralTab.defaultPreset.TagValue;
+
+Hope these details will help you.
+
+
+A double slash "//" means any descendant node of the current node in the HTML tree which matches the locator.
+
+A single slash "/" means a node which is a direct child of the current.
+
+Hello Hiran,
+
+I hope you're having a great week!
+
+Thank you for contacting Ranorex Support. I will be more than happy to assist you with this ticket.
+
+Issue 1.1:
+
+I'm afraid that there is no option to set Data Source at the Test Suite level.
+
+Issue 1.2;
+
+If you are using the Ranorex data connector then you can refresh the data connector by default refresh data.
+
+You can refer to the below forum link for more information:
+
+https://www.ranorex.info/update-csv-data-source-at-runtime-t16046.html
+
+Issue 2;
+
+In any case, it is necessary to have a realized and active/unlocked session for being able to execute the Ranorex tests. Ranorex requires an active session throughout the whole test run, so any disconnects, interruptions, minimize, or changes to the session can cause test runs to fail.
+
+https://www.ranorex.com/help/latest/ranorex-studio-expert/runtime-and-remote-execution/troubleshooting-and-faq/#spanGuidelinesfortestingviaremotedesktopprotocolRDPbrspan
+
+I hope this helps. Let me know if you have any further queries.
+
+
+Update CSV data source at runtime? - Ranorex Forum
+https://www.ranorex.info
+
+Save time with Ranorex 6.0 | Ranorex Blog
+https://www.ranorex.com
+
+
+Hello Abhijit,
+
+Hope you are doing well,
+
+This is already known issue, Our development team is working on this issue It may take time because of multiple scenarios. We are trying to fix this issue as soon as possible. 
+
+As soon as there are any updates on this issue I will notify you.
+
+Regards,
+Karthikraja Rajendran
+Ranorex Support Engineer
+
+00973175
+
+Hello Michael,
+
+Hope you are doing well,
+
+In this case, I would suggest that the XPath is not unique and the same xpath applies to multiple elements. Hence the validation picks the first found element. Or due to the lack of unique attributes, there are used element indexes in the path, which are not persistent and so the found element (for a given index) could be different with each run?
+
+What you need to do is to add some additional attributes to the path, which would make the path unique.
+
+Also, I will attach the Userguide link below for the RXpath editor
+
+https://www.ranorex.com/help/latest/ranorex-studio-advanced/ranorexpath/ranorexpath-syntax-examples/#Changetheidentifyingattribute
+
+I hope this helps. Let me know if you have any further queries.
+
+Regards,
+Karthikraja Rajendran
+Ranorex Support Engineer
+
+Hello Abhijit,
+
+Hope you are doing well and safe!
+
+Unfortunately I dont have ETA right now. But as per updates from the Dev Team, Im expecting release very soon.
+
+I will keep you posted on updates on this issue.
+
+Thank you for your patience and for being a valued customer to us!
+
+Regards,
+Karthikraja Rajendran
+Ranorex Support Engineer
+
+Hello Nguyen,
+
+Hoping you are doing well!
+
+Could You please Verify your Screen Resolution, Whether it is as per the System Default Settings?
+
+If you have any doubts,
+
+You can try the following display setting and then run the scripts:
+
+1) Try to adjust the Display  resolution to the recommended value
+OR
+2) Set Scale and layout to the recommended value (Right-click on Desktop -> Display settings).
+
+and make sure the DPI setting is set to 100%
+
+In case, the issue persists, kindly let us know at which particular event this issue occurs
+
+Hello Mariusz,
+
+I hope this email finds you well!
+
+Thank you for contacting Ranorex Support. I will be more than happy to help you.
+
+Kindly use the following link to share your automatically generated Ranorex Reports over your local network or via email. There is no need to have Ranorex installed on the machine you will open the shared report. This is possible because the Ranorex Report format is based on XSL, XML, and HTML.
+
+https://www.ranorex.com/blog/share-your-ranorex-report-using-any-browser/
+
+Regards,
+Karthikraja Rajendran
+Ranorex Support Engineer
+
+Hello Wim,
+
+I hope this email finds you well!
+
+Thank you for contacting Ranorex Support. I will be more than happy to help you.
+
+In this issue, you have to change the following settings/configurations,
+
+Kindly make sure that you run this from the command line like this:
+
+chrome.exe --allow-file-access-from-files {path_to_html_report}
+
+All browser instances (in which you want to open an HTML report) must be closed beforehand
+
+Not only .rxlog file needs to be renamed to .html but also the corresponding rxlog. data to HTML.data
+
+Hope these details will help you to achieve your purpose.
+
+Regards,
+Karthikraja Rajendran
+Ranorex Support Engineer
+
+Hello Schaeffling,
+
+I am so sorry to hear about your experience.
+
+Can you please confirm if you are using 32bit or 64 bit Ranorex Studio? If you are using 32 bit Ranorex studio I would suggest you to use the 64-bit version and see if that makes a difference.
+
+"You can get 64-bit version of the Ranorex to the following location:
+C:\Program Files (x86)\Ranorex\Studio\Bin\x64"
+
+Please do make sure that you are using Ranorex studio as admin.
+
+Hope these details will help you and looking forward to your reply.
+
+
+Regards,
+Karthikraja Rajendran
+Ranorex Support Engineer.
+
+Hello Wim,
+
+I hope this email finds you well!
+
+For further investigation of this issue, Kindly provide the Report files generated by your solution
+
+You can upload it to the following location:
+
+https://upload.ranorex.com/s/4Epy8GC5RwJa9rT
+
+As well can you confirm if you are executing Ranorex solution using command line?
+ 
+Looking forward to your reply.
+
+
+Regards,
+Karthikraja Rajendran
+Ranorex Support Engineer
+
+Hello Michael,
+
+Hope you are doing well and safe!
+
+In this issue, we suggest to re-track the desired elements and link them again with the actions in recording.
+
+Also, after re-tracking, highlight the elements and make sure that correct elements are getting highlighted.
+
+Kindly refer to the following screenshot to update the elements
+
+
+As well, you can check this scenario on another machine with the same configuration and environment.
+
+I hope these details will help you. Looking forward to your reply
+
+Regards,
+Karthikraja Rajendran
+Ranorex Support Engineer
+
+
+
+
+
+drop down case  00982695
+
+html case - 00858128
+
+00983842
+
+Try to execute locally if it is run and passing parameter using command line
+
+276282945d68482da9f52a2e44b5c839 jenkins password
+
+SF Ticket #: 00983842
+SF ticket link: https:https://idera.lightning.force.com/lightning/r/Case/5005a00002ORD0uAAH/view
+Account name: NEXUS Nederland B.V
+Reporting customer revenue Impact: 
+Next Renewal Date (nearest): 2/25/2023
+Impact (a small number of customers or many?): Small
+Escalated case number ;00931687
+
+replied=00982988
+
+
+
+
+
+
+
+
+Hello Jia 
+
+Hope you are doing well,
+
+
+I have Escalated this issue to our dev team,They took this case as a high priority and work on the support if the full support will take longer then our dev team is also checking possible alternate workaround test methods and our dev team will provide the instruction directly to you
+
+Kindly update the Latest version of Ranorex 10.5.2 and try with the latest version if it is working fine or not also I attached the latest version link the below
+
+https://www.ranorex.com/download/Ranorex-10.5.2.exe
+
+Could you please provide the Ranorex Log file also kindly provide the Version of the Ranorex
+
+As soon as there are any updates on this issue I will notify you.
+
+Regards,
+Karthikraja Rajendran
+Ranorex Support Engineer
+
+35609
+
+Ddev team is not able to reproduce thus issue , Kindly check with latest version of the Ranorex 957806-resolved
+
+958708-
+Dev team is fixed the issue with latest version of the ranorex kindly download the latest version of the ranorex from the following link
+00957806 refer
+'
+
+949957
+Dev team is suggesting to try with manual setting following methods
+
+AUT should not be instrumented with auto-detect settings. Instrument it with "Manually configure the parameters" and "Avoid resources decompiling" set to false.
+If application crashes upon start, customer/support should try to automate it with Manually configure the parameters. Usually, avoiding to decompile the AUT's resources is causing that application to not compile correctly again. There is also other options which can be altered to see if something can help. For developers, first thing is to use apktool and manually compile and decompile AUT and deploy it without instrumentation. If the AUT crashes then it is not suitable to be decompiled and compiled again (which is mandatory to inject code for automation).
+
+
+
+
+Hello Hari,
+
+Hope you are doing well,
+
+It seems that this is permission issue, so kindly confirm that administrative privilages shold be turned off and then try it
+
+Looking forward to your reply,
+
+Regards,
+Karthikraja Rajendran
+Ranorex Support Engineer
+
+aut technology with versions
+log file
+another machine
+latest version
+
+Hello Alvaro,
+
+Hope you are doing well and safe!
+
+Kindly try the following solutions and let us know if these helped you.
+
+Solution 1:
+
+Add your AUT to the Ranorex whitelist.
+
+Solution 2:
+
+Run your AUT and Ranorex with Admin privileges.
+
+As well, you can refer to the following link which is regarding element identification:
+
+https://www.ranorex.com/help/latest/hands-on-application-topics/best-practices/fix-element-not-found-error/
+
+In case the issue persists even after implementing the above solutions, Kindly provide the Error screenshot and Ranorex Logfile. Make a zip and rename it to the case number then upload it to the following link
+
+https://upload.ranorex.com/s/tXYwzkfLMjYeXsL
+00938741
+
+
+Hello Rachel,
+
+I hope this email finds you well!
+
+In this issue could you please reinstall Ranorex once again, I would suggest downloading the Ranorex setup for version 10.5.3 from the following link: 
+
+https://www.ranorex.com/download/Ranorex-10.5.3.zip
+
+Steps to reinstall:
+
+1) Uninstall Ranorex
+2) Reboot the Machine
+3) Install Prerequisite.exe from the zip
+4) Install Ranorex setup
+
+Also, We suggest that there must be installed MSBuild 16 or lower.
+
+Here you can find the details about the offline installer for MS build 16
+
+https://social.msdn.microsoft.com/Forums/en-US/62794e4e-255c-4447-bdc8-c18fde459bb1/msbuild-162019-version-offline-installer?forum=msbuild
+
+Along with this if there is any antivirus/firewall installed on the target machine then make sure you have added Ranorex to the exception list of antivirus/firewall.
+
+Hope these details will help you and looking forward to your reply.
+
+
+Regards,
+Karthikraja Rajendran
+Ranorex Support Engineer.
+
+Hello Motomu,
+
+Hope you are doing well and safe!
+
+Thank you for contacting Ranorex and I will be happy to help you with this issue.
+
+	On a remote machine running a Ranorex Agent, the firewall must be configured to allow access to TCP port 8081 and UDP ports 10000-10001.
+	If any other application uses the default port 8081 then Ranorex couldn’t access that post. Please try changing the Ranorex port from 8081 to something else. You can find the “config.toml” file in your Ranorex agent folder.  
+	Run Ranorex-agent and the application under test with administrative privileges - https://winaero.com/blog/how-to-run-an-app-as-administrator-in-windows-10
+	Disabled Windows UAC - https://articulate.com/support/article/how-to-turn-user-account-control-on-or-off-in-windows-10
+	Ensure Ranorex, the Ranorex Solution, and the application under test are stored on a local, non-encrypted drive (no network drives).
+	Temporarily disable any anti-virus software and security policies.
+
+I hope this helps. Let me know if you have any further queries.
+
+Regards,
+Karthikraja Rajendran
+Ranorex Support Engineer.
+
+
+Oracle data provider details
+00984551
+35772
+http://192.168.12.51/tfs/DefaultCollection/Ranorex/_workitems/edit/35772
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

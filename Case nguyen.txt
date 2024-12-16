@@ -1,0 +1,30 @@
+Hello Ali Ibrahim,
+
+I hope you're having a great week!
+
+	1. Did GDI raw text recognition for this UI element work in previous versions of Ranorex?
+
+	2. This is likely a permission related issue since it worked in previous versions of Ranorex. Try the following and see if there is any improvement:
+
+	3. Run Ranorex and your application under test with administrative rights
+
+	4. Disabled Windows UAC
+
+	5. Ensure Ranorex is whitelisted in any installed antivirus software
+
+	6. Ensure Ranorex, your Ranorex Test, and your application under test are all stored on a local non-encrypted drive (no network drives)
+
+If you continue to experience issues, try the other available WPF plugins (WpfOnly & WpfImprovedOnly) and see if you get better object recognition. I highly recommend checking out the below links for more information on the different WPF plugins. Be aware, changing the WPF plugin may break your existing repository objects.
+
+	!. Settings Overview
+
+	!. WPFImproved User guide
+
+	!. WPFImproved FAQ
+
+	7. As well, you can check this scenario on some another machine with same configuration and environment.
+
+	8. In case, issue persists please provide the Ranorex solution to us for further investigation
+
+
+	I hope this helps!

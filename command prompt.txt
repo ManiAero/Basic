@@ -1,0 +1,15 @@
+Hello Reehan,
+
+Hope you are doing well and safe!
+
+Thank you for contacting Ranorex Support. I will be more than happy to help you today.
+
+I’m afraid that there is no out-of-the-box solution for adding breakpoints and running executables in "debug"-mode from the command line interface. You may try a command-line debugger such as MDbg, which is part of the .NET Framework. For more details about this, refer to the following link:
+
+https://learn.microsoft.com/en-us/dotnet/framework/tools/mdbg-exe?redirectedfrom=MSDN
+
+Also, you can refer to the following link:
+
+https://learn.microsoft.com/en-us/answers/questions/452109/how-to-enter-debug-in-the-command-prompt
+
+Hope these details will help you.

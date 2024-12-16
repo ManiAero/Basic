@@ -1,0 +1,56 @@
+public void EnableDisableSAPPlugin(RepoItemInfo RepoObject)
+        {
+            if(RepoObject.Exists(2000))
+            {
+                Report.Log(ReportLevel.Info,"Exists Log","Visible");
+            }
+            else
+            {
+                Report.Log(ReportLevel.Info,"Exists Log","Not Visible");
+            Ranorex.Plugin.SapFlavor.Instance.Enabled=false;
+            Ranorex.Plugin.SapFlavor.Instance.Enabled=true;
+            }
+        }
+        
+        public void EnableDisableSAPPlugin2(RepoItemInfo RepoObject)
+        {
+            Ranorex.Adapter itemAdapter=RepoObject.CreateAdapter<Unknown>(true);
+            if(itemAdapter.EnsureVisible())
+            {
+                Report.Log(ReportLevel.Info,"EnsureVisible Log","Visible");
+            }
+            else
+            {
+                Report.Log(ReportLevel.Info,"EnsureVisible Log","Not Visible");
+            Ranorex.Plugin.SapFlavor.Instance.Enabled=false;
+            Ranorex.Plugin.SapFlavor.Instance.Enabled=true;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+Could you try the Exists function and then enable/disable the SAP plugin to check this issue
+
+Another thing you might try is using EnsureVisible method, which tries to bring the element to visible area of screen.
+
+repo.elementname.EnsureVisible();
+
+
+
+
+
+The solution was to disable the SAP plugin when the window is in background and not used and activate it when its needed.
+
+"Ranorex.Plugin.SapFlavor.Instance.Enabled = false/true;"
+
+

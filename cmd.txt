@@ -1,0 +1,10 @@
+CMD CD Space folder path
+
+How to 
+
+C:\Users\Manikandan\Documents\Ranorex\RanorexStudio Projects\Assignment1\Assignment1\bin\Debug>Assignment1.exe/agent:MyAgent IND-CMA-002-0076 Idle
+	  Folder name          agent name
+
+cmd command for path
+
+https://www.alphr.com/change-directory-in-cmd/

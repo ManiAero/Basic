@@ -1,0 +1,21 @@
+Hello Rakesh,
+
+Sure we can schedule the meeting, Before that kindly try the following
+
+This may be an installation error. you can try the same scenario on another machine by installing the latest trial version of Ranorex. if it works without issues then you can reinstall or else you can upgrade to the latest version.
+
+You can download the latest version of Ranorex from the following location:
+
+https://www.ranorex.com/download-archive/
+
+
+If the issue persists provide the AUT details like the Technology of the application, its version, and framework (if any).
+
+It will be much better if you provide demo access to your application to do the possible workarounds.
+
+Let me know your availability (with time zone), and I will schedule a remote session at a time we both have availability.
+
+
+Regards,
+Karthikraja Rajendran
+Ranorex Support Engineer

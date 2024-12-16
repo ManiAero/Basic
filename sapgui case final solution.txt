@@ -1,0 +1,20 @@
+
+Hello Todd,
+
+Hoping you are doing well!!
+
+It seems that the file is not uploaded completely, We can't unzip the file that you are provided
+
+I would suggest trying the solution to disable the SAP plugin when the window is in the background and not used and activate it when it is needed.
+
+Try the following method to resolve it,
+
+"Ranorex.Plugin.SapFlavor.Instance.Enabled = false/true;"
+
+If this setting doesn't work for you then I will happily schedule a meeting.
+
+Regards,
+
+Karthikraja Rajendran
+Ranorex Support Engineer.
+

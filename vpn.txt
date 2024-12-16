@@ -1,0 +1,14 @@
+1) Connect VPN (ranorexRGvnet798)
+2) Connect TFS
+3) Create new case by selecting either Bug or User Story (depending upon the customer case details)
+4) Add case details, customer details
+5) Create Customer folder on TFS file server (azuregateway-d30c0077-dad1-4f0c-8ce6-773c5a9ffde7-70febdca79e1.vpn.azure.com)
+6) Create Case # folder in customer folder and upload case details (AUT, sample AUT, Ranorex solution, snapshot, Ranorex log file, Windows Event Viewer, Error Screenshot, etc)
+7) Add File server link to case details.
+8) Follow the TFS case to get future updates
+9) TFS case link in SF case details
+10) Inform to the customer
+11) Marks status as 'Escalated'
+12) Add TFS case details to the Escalation Sheet.
+13) Once discussed in Weekly Core Meeting, update the case status to 'Deferred Development'
+

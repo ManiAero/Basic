@@ -1,0 +1,29 @@
+Hello Motomu,
+
+Hope you are doing well and safe!
+
+Thank you for contacting Ranorex Support. I will be more than happy to help you.
+
+To get the list of Smart Folders from the Test Suite, you can use the following code snippet:
+
+
+
+TestSuite tS = (TestSuite)TestSuite.Current; 
+            IList<TestSuiteEntry> ss =tS.GetAllTestSuiteEntries();
+    
+            string smartfoldername="";
+            foreach(TestSuiteEntry x in ss)
+             {
+                 if((x.GetType()== typeof(SmartFolderNode) ))
+                    {
+                      
+                      smartfoldername=smartfoldername+ " " + x.DisplayName;
+                      //Your Logic
+                    }
+             }
+            Report.Log(ReportLevel.Info, "This is list:" + smartfoldername);
+
+You may need to modify the above code as per your requirements.
+
+Hope these details will help you and looking forward to your reply.
+

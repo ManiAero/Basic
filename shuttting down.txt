@@ -1,0 +1,32 @@
+Hello Tobias,
+
+Hoping you are doing good and safe!
+
+Thank you for contacting Ranorex Support. I will be happy to assist you.
+
+It is possible to copy a test suite from another solution or a test case (or cases) from the test suite of one solution to another. But it doesn't copy the data connectors, so your bindings will be cleared. It may affect the integrity of your solution. It also doesn't keep both updated if you make changes to one or the other. 
+
+You can refer to the following link for more details on managing Test Suites:
+
+https://www.ranorex.com/help/latest/ranorex-studio-fundamentals/test-suite/multiple-testsuites/
+
+It is possible to add existing Recording Modules and Code Modules to another project.
+This can be done by performing the following steps:
+Right Click on your project in the Projects View
+Select “Add Existing Item”
+Choose a Recording Module or a Code Module from another Solution.
+In the following dialog, you can choose how to resolve the missing repository reference
+
+
+Confirm this dialog with OK
+In the case of a repository, you can merge your repositories into one repository. Do that with Copy&Paste or Drag&Drop - simply copy the elements (e.g. the root nodes) from one repository and paste them into the other repository or drag the elements from one repository to the other repository and drop them there.
+
+It is also possible to use separate repositories. Within your recording module, you can select one which should be used for the recording module.
+
+Please let us know if you need further assistance, I will be happy to help you!
+
+
+Regards,
+
+Chandravadan Patil
+Ranorex Support Engineer

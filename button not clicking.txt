@@ -1,0 +1,20 @@
+Hello Divya,
+
+Hope you are doing well and safe!
+
+Thank you for contacting Ranorex Support. I will be happy to assist you!
+
+1) In this issue, I suggest to re-track the problematic element and verify the issue.
+
+2) As well, you can try to add some delay before action.
+
+3) Also, make sure there is no dynamic value used in RXPath of the element.
+
+If the issue persist,  I would suggest to provide the snapshot of the problematic element.
+
+Hope these details will help you and looking forward to your reply.
+
+
+Regards,
+Chandravadan Patil,
+Ranorex Support Engineer.

@@ -1,0 +1,20 @@
+Hello Sidney,
+
+Hoping you are doing well and safe!
+
+I don't think this issue is about the DELL machine but looks like a machine-specific issue.
+
+In this case, I would suggest verifying this scenario on another machine with the same configuration and environment(possibly on a DELL machine).
+
+If the issue persists, please provide the sample application to us for further investigation.
+
+You can upload a sample application to the following location:
+
+https://upload.ranorex.com/s/4Epy8GC5RwJa9rT
+
+Looking forward to your reply.
+
+Regards,
+
+Chandravadan Patil
+Ranorex Support Engineer

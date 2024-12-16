@@ -1,0 +1,15 @@
+Hello Todd,
+
+Hoping you are doing well and safe!
+
+It seems that the file is not uploaded completely. I would request you to upload the file once again on same path(File server support upto 50 GB file).
+
+In case issue persists, I would suggest to upload the file to the any third-party file server as per your convenience and share the link with us.
+
+Looking forward to your reply.
+
+Thank you,
+
+Regards,
+Karthikraja Rajendran
+Ranorex Support Engineer

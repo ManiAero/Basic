@@ -1,0 +1,19 @@
+Hello Tobias,
+
+Hope you are doing well and safe!
+
+Its nice to know that your issue got resolved.
+
+For new issue, I would suggest to check following details:
+
+The Ranorex repository reuses element definitions as long as their RxPath stays the same
+The path may change, for instance, if the text of a button element changes
+I assume that something in your application changes, e.g. the title of the treeview, when you add a new user.
+Please, inspect the paths of the elements that cannot be found and try to change the paths so that they do not depend on information in your GUI that changes after adding a user.
+
+In case issue persists even after above suggestion, I would suggest to create new ticket for the dedicated support for this issue.
+
+Regards,
+
+Chandravadan Patil
+Ranorex Support Engineer

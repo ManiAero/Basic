@@ -1,0 +1,18 @@
+Hi,
+
+It sounds like a problem with project/Ranorex studio configuration? Have you tried to create a new solution with breakpoints? If they works in new solution, try to simulate the situation from your old solution.
+
+At first, copy all settings (both Ranorex studio settings and project settings), from old solution to new one. If the breakpoints still work in new solution, try to add the user code from the non-working project.
+
+BTW, have you tried to debug the solution on another machine? Try also uninstall and re-install Ranorex.
+
+Hello Reehan,
+
+I hope you’re having a good week!
+
+As you said that you need to add the breakpoints in the command line, Regarding this I need to contact the development team and let you know how to overcome this.
+
+Regards,
+
+Chandravadan Patil,
+Ranorex Support Engineer.

@@ -1,0 +1,11 @@
+Hello Igor,
+
+Thank you for contacting Ranorex Support. I will be more than happy to assist you with this today.
+
+1. When you upgrade Ranorex on your computer, then the referenced DLLs on your computer will get upgraded. However, your project will still reference 10.1.5 DLLs. You need to re-build the project and this should resolve the issue.
+
+2. This can also be due to dependencies, so you can just restore packages if the above option doesn't help.
+Open your solution and in the left project explorer right click on References -> Restore packages.
+3. If none of the above options work, I would suggest you do a clean installation (uninstall-restart-install) and see if it works.
+
+I hope this helps. Let me know if you still face any issues and I will guide you further.
